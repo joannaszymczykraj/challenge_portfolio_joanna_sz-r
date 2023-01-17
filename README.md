@@ -14,3 +14,21 @@ Dziękuję za uwagę :blush:
 **Asia** 
 
 ### Subtask 4
+
+**APLIKACJA SCOUTS PANEL**
+
+•	Na czym polega ta aplikacja? Do czego służy?
+
+Jako, że nie jestem znawcą tematu, sama nazwa aplikacji nie wiele mi mówi. 
+Zapoznając się z interfejsem już wiem, że przeznaczeniem aplikacji jest zarządzanie graczami meczami i tworzenie raportów z meczów piłki nożnej jak mniemam. 
+Oczywiście skorzystałam z google i poszukałam sobie serwisu futbolkolektyw.pl, uznając to za namiastkę specyfikacji do testów. 
+Wiem, że to nie jest przedmiotem tego zadania, ale na futbolkolektyw.pl (czyli poniekąd w specyfikacji naszej aplikacji :-D) znalazłam ciekawego bug’a – panel „football roots” niestety przekierowuje do treści zapełnienie niezwiązanych z tematem i przypuszczam, że zleceniodawcom (a nawet deweloperom) nie chodziło o tego rodzaju linkowanie. 
+
+
+![Logo GitHub](https://d1m75rqqgidzqn.cloudfront.net/images/logo.png) Format: ![www.futbolkolektyw.pl](url) 
+
+
+
+Kontynuując, aplikacja ma za zadanie gromadzić graczy, zbierając ich charakterystyki, dane. Ponadto, do każdego gracza można dodać mecz, w którym grał oraz przygotować raport z owego meczu. Spodziewam się, że celem utworzenia tej aplikacji miało być stworzenie wartościowego katalogu zawodników.
+Czy to się udało? To już inna kwestia. 
+
