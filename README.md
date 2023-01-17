@@ -95,7 +95,7 @@ Zestawienie graczy, meczów czy raportów jest bardzo nieczytelne, nielogiczne, 
   
  ### **•	Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)**
   
- Poniżej moje przemyślenia, dotyczące (potencjalnych) błędów:
+ Poniżej moje przemyślenia, dotyczące (potencjalnych) błędów. Dodam tylko, że przygotowując sobie roboczy plik z błędami w wordzie, opartrzyłam większość błędów screenami. Niestety nie umiałam ich dodać tutaj :worried:
   
   
 **Panel GŁÓWNY**
@@ -205,20 +205,30 @@ Zestawienie graczy, meczów czy raportów jest bardzo nieczytelne, nielogiczne, 
   
    <div>
     <ol>
-      <li>Przekierowanie do skrzynki pocztowej – nie działa</li>
- 
+      <li>Przekierowanie do skrzynki pocztowej – nie działa
+      <ol>
+<li>Request URL: https://scouts-test.futbolkolektyw.pl/pl/players/6026b48956c79737b3f3c624/reports/605a2740d6f567200510a7d6/www.futbolkolektyw.pl</li>
+  <li>Request Method: GET</li>
+        <li>Status Code: 404</li>
+        <li>Remote Address: 212.91.26.153:443</li>
+        <li>Referrer Policy: strict-origin-when-cross-origin</li>
+        </ol>
+</li>
 
  
- <li>Przekierowanie do serwisu www.futbolkolektyw.pl - nie działa</li>
- 
- <li></li>	
- 
- <li></li>
+ <li>Przekierowanie do serwisu www.futbolkolektyw.pl - nie działa
+   <ol>
+      <li>Request URL: mailto:skauci@futbolkolektyw.pl</li>
+      <li>Referrer Policy: strict-origin-when-cross-origin</li>
+     </ol>
+</li>
    </ol>
       </div>
 
  
+  ## Subtask 5
   
+  Podjęłam wyzwanie i dołączylam do grupy w Jirze (Dare_IT Projekt oprogramowania) :muscle:
   
   
   
