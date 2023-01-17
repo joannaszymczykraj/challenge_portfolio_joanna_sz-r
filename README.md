@@ -12,3 +12,5 @@ Moim celem wobec projektu jest zdobycie maksimum wiedzy, którą chcecie się po
 Dziękuję za uwagę :blush:
 
 **Asia** 
+
+### Subtask 4
