@@ -7,7 +7,10 @@
 #### **Subtask 4**
 #### **Subtask 5**
 
-
+### **Task 2**
+#### **Subtask 1**
+#### **Subtask 2**
+#### **Subtask 3**
 
 
 
@@ -249,7 +252,25 @@ Zestawienie graczy, meczów czy raportów jest bardzo nieczytelne, nielogiczne, 
   
   
   
+  # Task 2
+  
+  ## Subtask 1
+ 
+ https://docs.google.com/spreadsheets/d/19RXZkBrFECjxfGsYW-GfGRm1hgxdonnF/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
   
   
+  ## Subtask 2
+  
+  https://docs.google.com/spreadsheets/d/1k72sKUnc_epHkWPB8vXqTWJQMZ2VJ1uF/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 3
+  
+  ### **•	Po co piszemy test case’y?**
+  
+Dzięki przypadkom testowym możliwe jest zweryfikowanie określonej funkcji lub funkcjonalności systemu/oprogramowania/aplikacji. 
+Dobrze przygotowany przypadek testowy pozwala porównać oczekiwane i uzyskane wyniki, aby określić czy oprogramowanie działa zgodnie z oczekiwaniami i wymaganiami klienta.
+Wg mnie o przypadkach testowym można powiedzieć, że porządkują i systematyzują pracę testera. Dzięki nim tester ma większe poczucie kontroli nad tym, co ma być przetestowane. 
+
+
   
   
