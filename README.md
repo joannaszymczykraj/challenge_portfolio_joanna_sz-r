@@ -11,6 +11,7 @@
 #### **Subtask 1**
 #### **Subtask 2**
 #### **Subtask 3**
+#### ** Subtask 4**
 
 
 
@@ -271,6 +272,8 @@ Dzięki przypadkom testowym możliwe jest zweryfikowanie określonej funkcji lub
 Dobrze przygotowany przypadek testowy pozwala porównać oczekiwane i uzyskane wyniki, aby określić czy oprogramowanie działa zgodnie z oczekiwaniami i wymaganiami klienta.
 Wg mnie o przypadkach testowym można powiedzieć, że porządkują i systematyzują pracę testera. Dzięki nim tester ma większe poczucie kontroli nad tym, co ma być przetestowane. 
 
-
+## Subtask 4
+  
+  https://docs.google.com/spreadsheets/d/1qClZwfXW1ugi8S-NHKbIteuxGOfLU-TX/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
   
   
