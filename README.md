@@ -277,3 +277,22 @@ Wg mnie o przypadkach testowym można powiedzieć, że porządkują i systematyz
   https://docs.google.com/spreadsheets/d/1qClZwfXW1ugi8S-NHKbIteuxGOfLU-TX/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
   
   
+  
+  
+  # Task 3
+  ## Subtask 1
+  
+  https://docs.google.com/spreadsheets/d/1j92eT9ejctyskDc7VKkGE1pflwM1_Jle/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 2
+ 
+ https://docs.google.com/spreadsheets/d/1v63T7j3q-ziOt90tEnrOFZK2vKlDrb_D/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 3
+  
+  https://docs.google.com/document/d/138CuhcJeFPWqkzr1mhn03Fpo7DdECott/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 4
+  
+  https://docs.google.com/document/d/1leQafjG6w0TSUu7WEOSyP8hLsCNmrESgDq1Onno0lvg/edit?usp=sharing
+  
