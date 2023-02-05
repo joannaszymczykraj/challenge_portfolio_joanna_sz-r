@@ -1,7 +1,7 @@
 
 # **Spis treści** 
 
-### **Task 1**
+### **Task 1** 
 #### **Subtask 1** 
 #### **Subtask 3**
 #### **Subtask 4**
@@ -13,8 +13,16 @@
 #### **Subtask 3**
 #### **Subtask 4**
 
+### **Task 3**
+#### **Subtask 1**
+#### **Subtask 2**
+#### **Subtask 3**
+#### **Subtask 4**
 
-
+### **Task 4**
+#### **Subtask 1**
+#### **Subtask 2**
+#### **Subtask 3**
 
 
 # Task 1
@@ -280,6 +288,8 @@ Wg mnie o przypadkach testowym można powiedzieć, że porządkują i systematyz
   
   
   # Task 3
+  
+  
   ## Subtask 1
   
   https://docs.google.com/spreadsheets/d/1j92eT9ejctyskDc7VKkGE1pflwM1_Jle/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
@@ -295,4 +305,56 @@ Wg mnie o przypadkach testowym można powiedzieć, że porządkują i systematyz
   ## Subtask 4
   
   https://docs.google.com/document/d/1leQafjG6w0TSUu7WEOSyP8hLsCNmrESgDq1Onno0lvg/edit?usp=sharing
+  
+  
+  
+  
+  
+  # Task 4
+  
+  
+  ## Subtask 1
+  
+  https://docs.google.com/spreadsheets/d/1HOVjTXS6vBEsJW6nAZAW6WAAVLzzBLRU/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 2
+  
+  https://docs.google.com/spreadsheets/d/1HOVjTXS6vBEsJW6nAZAW6WAAVLzzBLRU/edit?usp=share_link&ouid=109087150345702217098&rtpof=true&sd=true
+  
+  ## Subtask 3
+  
+### **Do czego służy ta aplikacja?**
+
+Podczas testów spróbuj odpowiedzieć na poniższe pytania (nie sugeruj się ich stroną www tutaj liczą się Twoje odczucia- odczucia użytkownika końcowego) :
+
+
+**1.	Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?** 
+
+W mojej ocenie aplikacja służy do 1) sprzedaży oraz 2) kupowania/nabywania przedmiotów. Zatem wg mnie aplikacja jest platformą, której cel jest czysto sprzedażowo-zakupowy. 
+Jest niczym lokalny sklep, second-hand. 
+
+**2.	Kto ma być użytkownikiem końcowym aplikacji?**
+
+Użytkownikiem końcowym aplikacji jest każda osoba poszukująca danego przedmiotu, chcąca coś nabyć/kupić. Z drugiej strony użytkownikiem końcowym jest też osoba, która chce sprzedać/ oddać za darmo jakieś przedmioty. 
+
+**3.	Czy według Ciebie aplikacja jest user friendly? (Przyjazna dla użytkownika- np. wchodzisz do aplikacji i szybko łapiesz do czego służą przyciski. Poczytaj na ten temat w internecie- co to znaczy, że aplikacja jest przyjazna dla użytkownika)**
+
+Jeżeli aplikacja działa poprawnie, tzn. nawigacja użytkownika jest widoczna na danym urządzeniu, to w mojej ocenie aplikacja spełnia wymogi user friendly – jest łatwa w obsłudze i łatwo dostępna. Poza tym wg mnie, interfejs aplikacji jest zrozumiały, przejrzysty i wygodny. 
+
+**4.	Jakbyś usprawnił aplikację? Co byś w niej poprawił? Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )** 
+
+Oczywiście poprawiłabym znalezione bug’i. Zweryfikowałabym walidację poszczególnych pól i dążyła do jej udoskonalenia. Jeśli chodzi o dodatkową funkcjonalność to myślę, że dobrym pomysłem byłoby dodanie możliwości dodania wideo dotyczącego sprzedawanego/ wystawionego przedmiotu. Wydaje mi się, że przyczyniłoby się to do wzrostu i zainteresowania wystawianymi przedmiotami i do wzrostu sprzedaży. Ciekawą opcją, którą można byłoby także dodać, że opcja licytacji, która sprawdza się w innym, dobre znanym serwisie tego typu. 
+To co jeszcze przychodzi mi do głowy, to opcja dodania mniejszych opłat dotyczących zakupu przedmiotu dla lokalnych społeczności. Tzn. w obrębie danego, mocno lokalnego obszaru, opłaty sprzedażowe/ ochronne mogłyby być mniejsze. Zwiększyłoby to popularność „lokalnych” biznesów i wyróżniło aplikację jako właśnie mocno promującą lokalne inicjatywy sprzedażowo-zakupowe. 
+
+**5.	Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?** 
+
+Pierwszą różnicą jaka mi przychodzi na myśl jest brak możliwości (albo moich umiejętności ?) odnośnie testowania kodu tj. brak dostępu do Devtool’s w przypadku aplikacji natywnej. 
+Nie wiem dlaczego, ale odnoszę wrażenie, że testowanie aplikacji natywnej jest bardziej klarowne i intuicyjne. Za pewne ze względu na złożoność/ budowę aplikacji natywnej, konieczność zawarcia niezbędnych funkcjonalności na urządzeniach mobilnych, aplikacje tego typu są bardziej przejrzyste i konkretniejsze niż te internetowe, które są bardziej rozbudowane i zawierają więcej treści.
+A ja lubię konkrety :blush: 
+
+  
+  
+  
+  
+  
   
