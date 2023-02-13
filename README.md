@@ -377,17 +377,17 @@ A ja lubię konkrety :blush:
 
 SELECT * FROM `actors` 
 ORDER BY surname
-
-![image](https://user-images.githubusercontent.com/120684759/218593066-b2d48b6c-db25-4e4c-b3f2-000551130e2f.png)
-
+    
+![image](https://user-images.githubusercontent.com/120684759/218594951-3b3734f3-f2df-4da9-860d-931e5a2fbdb7.png)
+    
     
 **<li>Wyświetl film, który powstał w 2019 roku.</li>**
     
 SELECT * FROM `movies`
 WHERE year_of_production = 2019
-
-![image](https://user-images.githubusercontent.com/120684759/218592907-b9a7e6d4-f815-40ec-a4f9-d4291ad4e67b.png)
-    
+   
+ ![image](https://user-images.githubusercontent.com/120684759/218595126-7381de4c-3ff1-4952-8bad-022214dd118b.png)
+   
     
 **<li>Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</li>**
 
