@@ -362,11 +362,27 @@ A ja lubię konkrety :blush:
   
   ## Subtask 1
   
+  Kurs z podstaw SQL obejrzany, narzędzia zainstalowane, ćwiczenia zrobione :ok_hand:
   
+  **Operatory/zapytania, których się nauczyłam:**
   
+  <div>
+    <li>SELECT*FROM - podstawa </li>
+    <li>SELECT (...)
+        FROM (...) - wybór konkretnych kolumn z bazy</li>
+    <li>SELECT (...) AS (...) FROM (...) - tworzenie aliasów</li>
+    <li>SELECT*FROM (...) ORDER BY (...) - sortowanie danych</li>
+    <li>SELECT*FROM (...) ORDER BY (...) DESC - sortowanie danych malejąco</li>
+    <li>SELECT*FROM (...) ORDER BY (...) ASC - sortowanie danych rosnąco</li>
+    <li>SELECT*FROM (...) WHERE (...) - filtrowanie danych</li> 
+    <li>SELECT*FROM (...) WHERE (...) BETWEEN (...) - filtrowanie danych z przedziału</li> 
+    <li></li>
+    <li></li>
+    <li></li>
+    
   ## Subtask 2
   
-  
+  Środowisko skonfigurowane, baza wgrana. Choć przyznaję, że musiałam zmienić komputer, bo na moim Xampp odmówił posłuszeństwa :confounded:
   
   ## Subtask 3
  
