@@ -352,8 +352,23 @@ Pierwszą różnicą jaka mi przychodzi na myśl jest brak możliwości (albo mo
 Nie wiem dlaczego, ale odnoszę wrażenie, że testowanie aplikacji natywnej jest bardziej klarowne i intuicyjne. Za pewne ze względu na złożoność/ budowę aplikacji natywnej, konieczność zawarcia niezbędnych funkcjonalności na urządzeniach mobilnych, aplikacje tego typu są bardziej przejrzyste i konkretniejsze niż te internetowe, które są bardziej rozbudowane i zawierają więcej treści.
 A ja lubię konkrety :blush: 
 
+
+
+  
+  # Task 5
   
   
+  
+  
+  ## Subtask 1
+  
+  
+  
+  ## Subtask 2
+  
+  
+  
+  ## Subtask 3
   
   
   
