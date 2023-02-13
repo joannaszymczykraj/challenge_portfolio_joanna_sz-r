@@ -139,7 +139,7 @@ Zestawienie graczy, meczów czy raportów jest bardzo nieczytelne, nielogiczne, 
 <li>Brak przycisku „powrót” przy dodawaniu/edytowaniu meczu</li>
 <li>Brak przycisku „powrót” przy dodawaniu/edytowaniu raportu meczowego</li>
   </ol>
-  <div/>
+  </div>
   
   
 **Panel – GRACZE:**
@@ -369,7 +369,30 @@ A ja lubię konkrety :blush:
   
   
   ## Subtask 3
-  
-  
-  
+ 
+<div>
+  <ol>
+    
+**<li>Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</li>**
+    
+**<li>Wyświetl film, który powstał w 2019 roku.</li>**
+    
+**<li>Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</li>**
+    
+**<li>Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$</li>**
+    
+**<li>Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.</li>**
+    
+**<li>Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.</li>**
+    
+**<li>Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.</li>**
+    
+**<li>Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.</li>**
+    
+**<li>Wyświetl dane klienta, który nie ma podanego adresu email.</li>**
+    
+**<li>Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.</li>**
+ 
+  </ol>
+  </div>
   
