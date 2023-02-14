@@ -366,19 +366,34 @@ A ja lubię konkrety :blush:
   
   **Operatory/zapytania, których się nauczyłam:**
   
-  <div>
-    <li>SELECT*FROM - podstawa </li>
-    <li>SELECT (...)
-        FROM (...) - wybór konkretnych kolumn z bazy</li>
-    <li>SELECT (...) AS (...) FROM (...) - tworzenie aliasów</li>
-    <li>SELECT*FROM (...) ORDER BY (...) - sortowanie danych</li>
-    <li>SELECT*FROM (...) ORDER BY (...) DESC - sortowanie danych malejąco</li>
-    <li>SELECT*FROM (...) ORDER BY (...) ASC - sortowanie danych rosnąco</li>
-    <li>SELECT*FROM (...) WHERE (...) - filtrowanie danych</li> 
-    <li>SELECT*FROM (...) WHERE (...) BETWEEN (...) - filtrowanie danych z przedziału</li> 
-    <li></li>
-    <li></li>
-    <li></li>
+  **<li>SELECT * FROM** - podstawa</li>
+  **<li>SELECT (...) FROM (...)** - wybór konkretnych kolumn z bazy</li>
+  **<li>SELECT (...) AS (...) FROM (...)** - tworzenie aliasów</li>
+  **<li>SELECT * FROM (...) ORDER BY (...)** - sortowanie danych</li>
+  **<li>SELECT * FROM (...) ORDER BY (...) DESC** - sortowanie danych malejąco</li>
+  **<li>SELECT * FROM (...) ORDER BY (...) ASC** - sortowanie danych rosnąco</li>
+  **<li>SELECT * FROM (...) WHERE (...)** - filtrowanie danych</li> 
+  **<li>SELECT (...) FROM (...) WHERE (...) BETWEEN (...) AND (...)** - filtrowanie danych z przedziału</li> 
+  **<li>SELECT (...) FROM (...) WHERE (...) = ('...')** - filtrowanie wartości tekstowych w pojedynczych apostrofach</li> 
+  **<li>SELECT * FROM (...) WHERE (...) LIKE ('%X%')** - wykorzystanie funkcji LIKE i '%' do filtrowania danych po dowolnym znaku w dowolnej liczbie </li> 
+  **<li>SELECT * FROM (...) WHERE (...) LIKE ('X_')** - wykorzystanie funkcji LIKE i '_' do filtrowania danych po dowolnym znaku w pojedynczej liczbie </li> 
+  **<li>SELECT (...) FROM (...) WHERE (...) AND (...)** - filtrowanie danych z wykorzystaniem funkcji AND</li>
+  **<li>SELECT (...) FROM (...) WHERE (...) OR (...)** - filtrowanie danych z wykorzystaniem funkcji OR</li>
+  **<li>SELECT * FROM (...)WHERE (...) = NULL** - filtrowanie danych, z nazwą NULL</li>
+  **<li>SELECT * FROM (...)WHERE (...) IS NULL** - filtrowanie danych, w których nie ma danych</li>
+  **<li>SELECT * FROM (...)WHERE (...) IS NOT NULL** - filtrowanie danych, w których są dane</li>
+  **<li>SELECT GETDATE () AS CurrentDateTime** - funkcje skalarne do określenia daty/ GETDATE - bieżąca data</li>
+  **<li>SELECT DATEDIFF (HOUR, ('...')('...')** - funkcje do określenia przedziałów czasowych w oparciu o godziny</li>
+  **<li>SELECT DATEDIFF (MONTH, ('...')('...')** - funkcje do określenia przedziałów czasowych w oparciu o miesiące</li>
+  **<li>SELECT DATEDIFF (YEAR, ('...')('...')** - funkcje do określenia przedziałów czasowych w oparciu o lata</li>
+  **<li>SELECT COUNT (*) AS (...) FROM (...)** - funkcja agregująca do zliczania wielu wierszy, alew jednej odpowiedzi</li>
+  **<li>SELECT SUM (...) AS (...) FROM (...)** - funkcja agregująca do sumowania wartosći wszystkich produktów z danej kategorii</li>
+  **<li>SELECT MIN (...) AS (...) FROM (...)** - funkcja agregująca, która zwrca wartość minimalną danej kategorii</li>
+  **<li>SELECT (...) FROM (...) GROUP BY (...)** - grupowanie danych wg konkretnej danej/kategorii</li>
+  **<li>SELECT * FROM (...) JOIN (...) ON (...)=(...)** - łączenie tabel z wykorzystaniem funkcji JOIN</li>
+
+</div>
+    
     
   ## Subtask 2
   
@@ -389,87 +404,87 @@ A ja lubię konkrety :blush:
 <div>
   <ol>
     
-**<li>Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</li>**
+### <li>Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</li>
 
-SELECT * FROM `actors` 
-ORDER BY surname
+#### SELECT * FROM `actors` 
+#### ORDER BY surname
     
-![image](https://user-images.githubusercontent.com/120684759/218594951-3b3734f3-f2df-4da9-860d-931e5a2fbdb7.png)
+![image](https://user-images.githubusercontent.com/120684759/218815286-fd7e89c0-6650-4b98-99ec-7f88e53246d9.png)
+
     
+### <li>Wyświetl film, który powstał w 2019 roku.</li>
     
-**<li>Wyświetl film, który powstał w 2019 roku.</li>**
-    
-SELECT * FROM `movies`
-WHERE year_of_production = 2019
+#### SELECT * FROM `movies`
+#### WHERE year_of_production = 2019
    
- ![image](https://user-images.githubusercontent.com/120684759/218595126-7381de4c-3ff1-4952-8bad-022214dd118b.png)
+![image](https://user-images.githubusercontent.com/120684759/218815349-05c3283b-5ffb-4cb2-811f-d31aabe4a029.png)
    
     
-**<li>Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</li>**
+### <li>Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.</li> 
 
-SELECT * FROM `movies`
-WHERE year_of_production BETWEEN 1900 AND 1999
+#### SELECT * FROM `movies`
+#### WHERE year_of_production BETWEEN 1900 AND 1999
 
-![image](https://user-images.githubusercontent.com/120684759/218593159-64c979b4-c513-47b8-90ec-89c3d268c8fc.png)
-
-    
-**<li>Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$</li>**
-
-SELECT Title, Price
-FROM `movies`
-WHERE Price < 7
-
-![image](https://user-images.githubusercontent.com/120684759/218593257-1b327fd4-9554-4b93-b01b-812906c74985.png)
+![image](https://user-images.githubusercontent.com/120684759/218815394-cbe260ec-c203-473a-8af4-2377de5c247b.png)
 
     
-**<li>Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.</li>**
+### <li>Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$</li> 
+ 
+#### SELECT Title, Price
+#### FROM `movies`
+#### WHERE Price < 7
 
-SELECT * FROM `actors`
-WHERE (actor_id > 4 AND actor_id < 7) OR (actor_id = 4 OR actor_id = 7)
-
-![image](https://user-images.githubusercontent.com/120684759/218593357-a99095e7-58b0-45ed-95db-eb5f106f9d55.png)
-
-
-**<li>Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.</li>**
-
-SELECT * FROM `customers`
-WHERE customer_id IN (2,4,6)
-
-![image](https://user-images.githubusercontent.com/120684759/218593507-c5a233bb-58f9-43c8-83e2-1fdd4b2e2bf7.png)
-
-
-**<li>Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.</li>**
-
-SELECT * FROM `customers`
-WHERE customer_id IN (1,3,5)
-
-![image](https://user-images.githubusercontent.com/120684759/218593625-29858aa6-cee8-42e8-a73c-c7c4e3d4d6d4.png)
+![image](https://user-images.githubusercontent.com/120684759/218815461-50b4a331-ef9b-4714-b692-027a698b03f0.png)
 
     
-**<li>Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.</li>**
+### <li>Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.</li> 
 
-SELECT * FROM `actors` 
-WHERE Name LIKE 'An%'
+#### SELECT * FROM `actors`
+#### WHERE (actor_id > 4 AND actor_id < 7) OR (actor_id = 4 OR actor_id = 7)
 
-![image](https://user-images.githubusercontent.com/120684759/218593712-bbd45e0c-93e5-43e1-aea1-b11f22a0d571.png)
+![image](https://user-images.githubusercontent.com/120684759/218815588-0c56ec36-3aa7-41fc-820f-863c65fcd019.png)
+
+
+### <li>Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.</li> 
+
+#### SELECT * FROM `customers`
+#### WHERE customer_id IN (2,4,6)
+
+![image](https://user-images.githubusercontent.com/120684759/218815673-8c712dd9-6693-456e-94a3-7e8c9515165a.png)
+
+
+### <li>Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.</li> 
+
+#### SELECT * FROM `customers`
+#### WHERE customer_id IN (1,3,5)
+
+![image](https://user-images.githubusercontent.com/120684759/218815772-1f2026d8-6c28-4191-9df3-5b31f8bb0011.png)
 
     
-**<li>Wyświetl dane klienta, który nie ma podanego adresu email.</li>**
+### <li>Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.</li> 
 
-SELECT * FROM `customers` 
-WHERE email IS NULL
+#### SELECT * FROM `actors` 
+#### WHERE Name LIKE 'An%'
 
-![image](https://user-images.githubusercontent.com/120684759/218593814-a28cf532-dbc7-486a-961c-12a1709af424.png)
+![image](https://user-images.githubusercontent.com/120684759/218815810-eb3f3b9c-dbc2-45ee-834b-e5b945d0dfb0.png)
 
     
-**<li>Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.</li>**
+### <li>Wyświetl dane klienta, który nie ma podanego adresu email.</li>
 
-SELECT * FROM `movies` 
-WHERE Price >9 
-AND movie_id BETWEEN 2 AND 8
+#### SELECT * FROM `customers` 
+#### WHERE email IS NULL
+
+![image](https://user-images.githubusercontent.com/120684759/218815872-80260dd5-8cba-44f9-a91d-24c2991e1a06.png)
+
+    
+### <li>Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.</li>
+
+#### SELECT * FROM `movies` 
+#### WHERE Price >9 
+#### AND movie_id BETWEEN 2 AND 8
 
 
-![image](https://user-images.githubusercontent.com/120684759/218593896-d64537fa-1195-4b6a-9ec1-da1932af24f0.png)
+![image](https://user-images.githubusercontent.com/120684759/218815919-324c6ee1-6324-43c0-a91f-5f33f84da5d0.png)
 
 
  
