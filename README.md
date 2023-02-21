@@ -24,6 +24,15 @@
 #### **Subtask 2**
 #### **Subtask 3**
 
+### **Task 5**
+#### **Subtask 1**
+#### **Subtask 2**
+#### **Subtask 3**
+
+### **Task 6**
+#### **Subtask 1**
+#### **Subtask 2**
+#### **Subtask 3**
 
 # Task 1
 ## Subtask 1
