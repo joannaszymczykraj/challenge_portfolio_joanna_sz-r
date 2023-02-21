@@ -491,3 +491,13 @@ A ja lubię konkrety :blush:
   </ol>
   </div>
   
+  
+  ## Task 6
+  
+  ### Subtask 1
+  ### Subtask 2
+  
+  Liczba punktów z testu *_Ecru_* = 13
+  
+  
+  ### Subtask 3
